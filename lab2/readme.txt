@@ -39,10 +39,7 @@ samma key och då fångar vi alla hash-collisions.
 
 8 bokstäver         10 bokstäver
 -----------         ------------
-congrats            completely
-youfound            unbreakabl
-theright            cryptogram
-solution            ormaybenot
+
 
 /****************************************************************************
  *  Hur lång tid använder brute.c för att knäcka lösenord av en viss storlek?
@@ -53,10 +50,10 @@ solution            ormaybenot
 
 Char     Brute
 --------------
- 4       ~1s*       //utmatning: 0s.
- 5       25s
- 6       1131s
- 8       1131+s*    //tar väldigt lång tid.
+ 4       
+ 5       
+ 6       
+ 8       
 
 
 /******************************************************************************
@@ -78,5 +75,5 @@ Char    Tid (sekunder)    Minne (bytes)
  * Hur många operationer använder din decrypt.c för ett N-bitars lösenord?
  * Använd ordo-notation.
  *************************************************************************/
-brute.cc:   O(N + 2^N)
-decrypt.cc: O(N + 2^(N/2) + 2^(N/2) * (2^(N/2) + log 2^(N/2)))
+brute.cc:
+decrypt.cc:
